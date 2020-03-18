@@ -1,0 +1,462 @@
+@font-face {
+    src: url(../fonts/HKGrotesk-Regular.otf);
+font-family: "HKGrotesk"
+}
+
+@font-face {
+    src: url(../fonts/Rockwell_MT_Bold.ttf);
+font-family: "Rockwell"
+}
+
+*{
+    font-family: 'HKGrotesk','Gill Sans', sans-serif
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+@keyframes animacion1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h1{
+    text-align: right; 
+    color: rgb(68, 215, 182);
+    font-family: 'Rockwell';
+    font-size: 50px;
+    width:50%;
+
+    
+}
+
+.subtitle {
+    
+    color: black;
+    font-family: 'Rockwell';
+    font-weight: bold;
+    font-size: 34px;
+    text-align: right;
+    width:50%;
+}
+
+  
+h2{
+    font-family: 'Rockwell';
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+}
+.special-text {
+    font-weight: bold;
+    font-size: 20px;
+  
+  }
+
+  .special-color{
+      color:#44d7b6;
+      font-weight: bold;
+      font-family: 'Rockwell';
+      font-size: 28px;
+  }
+
+  .special-color2{
+    color: #6E48B8;
+    font-weight: bold;
+    font-family: 'Rockwell';
+    font-size: 28px;
+}
+
+  .CV {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.CV:hover {
+    background:whitesmoke;
+    color: #95E1D3; }
+.CV:active {
+        background: whitesmoke; }
+    
+
+.cases{
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-left: 48px;
+    height: auto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 215, 182);
+    background-position-x: 1440px;
+    background-position-y: 500px;
+    position: relative;
+    z-index: 1;
+    top: 10%;
+   
+   
+} 
+
+
+.comment{
+
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: right;
+    width:50%;
+   
+
+}
+
+.contact{
+        background-image: url(../imagesportfolio/joystick.jpg); 
+        width: auto; 
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: whitesmoke;
+        position: relative;
+        padding-top: 100px;
+    }
+
+
+h3{
+    font-family: 'HKGrotesk';
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  
+
+}
+
+.supercards{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    bottom: -75px;
+}
+.cards{
+    width: 300px;
+    min-height: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px rgba(246,246,246,1);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px 32px;
+    text-align: center;
+    margin-right: 40px;   
+    
+    
+}
+/*@media only screen and (max-width:414px){
+    #profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #supercards{
+        display: flex;
+        flex-direction: column;
+    }
+
+}*/
+
+@media only screen and (max-width:768px){
+
+   .profile-info{
+       width:100%;
+       text-align: center;
+
+   }
+
+   h1{
+    
+    width:100%;
+    text-align:center;
+
+   }
+
+    .subtitle {
+    
+   
+        width:100%;
+        text-align:center;
+    }
+
+    .companies{
+       
+        width:100% !important;
+        text-align: center !important;
+        display:flex !important;
+        flex-direction: column !important;
+        
+    }
+    .comment{
+        width:100%;
+        text-align:center;
+        margin-top:50px;
+    }
+
+    .companieslist{
+        
+        width:100% !important;
+        text-align:center !important;
+        padding-left: 0 !important;
+        
+    }
+
+    .profile-img{
+      
+        width:100% !important;
+        text-align:center !important;
+    }
+
+    .cards{
+        margin-bottom: 70px;
+        margin-right: 0px;
+    }
+    .supercards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width:100%;
+        align-items: center;
+    }
+
+    h2{
+       
+        text-align: center;
+        width:100%;
+    }
+
+    .lastcard{
+        margin-bottom: 10px;
+    }
+
+    footer{
+       
+        padding-bottom: 0px;
+        width:100%;
+    
+    }
+
+    h3{
+        margin-bottom: 0px;
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .linkedin{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .phone{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .final{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+
+.numero2{
+    color: whitesmoke;
+    font-family: 'Rockwell';
+    
+}
+
+.numero3{
+    color: whitesmoke;
+    font-family: 'Rockwell';
+    margin-top: 48px;
+    
+    
+}
+.contact3{
+    color:#95E1D3;
+    font-family: 'Rockwell';
+    margin-top: 48px;
+    
+}
+
+.contact2{
+    color:black;
+    font-family: 'Rockwell';
+    
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail{
+    display:flex;
+    align-items: center;
+}
+.linkedin{
+    display:flex;
+    align-items: center;
+}
+.phone{
+    display:flex;
+    align-items: center;
+}
+
+.telefono{
+    margin-left: 8px;
+}
+.myButton {
+    color:whitesmoke;
+    background-color: #44d7b6; 
+    font-size: 24px;
+     line-height: 24px; 
+     padding: 8px; 
+     border-radius: 5px; 
+     font-family: HKGrotesk; 
+     font-weight: normal; 
+     text-decoration: none; 
+     font-style: normal; 
+     font-variant: normal; 
+     box-shadow: 6px 6px 5px 0px#b8b1b8;
+     display: inline-block;
+     transition: all (0.5);
+
+    }
+
+
+
+    
+    .myButton:hover {
+    background:whitesmoke;
+    color: #95E1D3; }
+    .myButton:active {
+    background: whitesmoke; }
+
+.profile {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.profile-img {
+
+    text-align: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img{
+    border-radius: 20%;
+    height: 350px;
+}
+
+
+.companies{
+
+    list-style-position: outside;
+    text-align: right;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+
+}
+
+.companieslist{
+    list-style: none;
+    width:50%;
+    
+}
+
+.pelota{
+    background-color:#44d7b6;
+   border-radius: 50%;
+   border: 2px solid black;
+   width: 20px;
+   height: 20px;
+   margin-left: 20px;
+   
+}
+.companylistitem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.companieslist li p {
+    width: calc(100% - 50px);
+  }
+
+
+
+
+
+
+
+#section3 {
+    justify-content: center;
+}
+
+footer a {
+
+    text-decoration: none;
+    color:whitesmoke;
+  
+  }
+
+  .conaltura {
+   
+    margin-right: 16px;
+    margin-left: 8px;
+  }
+
+ .final {
+     position: absolute; 
+     bottom: 40px;
+     width: 100%;
+ }
+
+ 
+    
+    
+
+ 
